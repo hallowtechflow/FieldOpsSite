@@ -102,7 +102,12 @@ function App() {
 
       <footer>
         <a className="brand" href="#top"><img src="/branding/fo-logo-trans-bg.png" alt="FieldOps" /></a>
-        <p>Built for the field. Designed for the business.</p>
+        <p>
+          FieldOps is a company by{' '}
+          <a href="https://dev.hallowtech.us" target="_blank" rel="noreferrer">
+            <strong>HALLOWTECH</strong>
+          </a>
+        </p>
         <span>© {new Date().getFullYear()} FieldOps</span>
       </footer>
     </main>
