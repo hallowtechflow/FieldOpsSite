@@ -86,6 +86,7 @@ footer p { margin: 0; }
 }
 
 @media (min-width: 1080px) {
+  .nav .brand img { width: 220px; height: 76px; }
   .hero { min-height: 850px; padding-bottom: 7rem; }
   .hero__content { width: 67%; }
   .hero__panel { position: absolute; z-index: 3; right: 5vw; bottom: 7rem; width: min(38vw, 530px); display: block; padding: 1.35rem; color: var(--teal); background: rgba(250,252,251,.96); border: 1px solid rgba(255,255,255,.42); border-radius: 16px; box-shadow: 0 32px 80px rgba(0,0,0,.3); transform: rotate(-1.5deg); backdrop-filter: blur(18px); }
